@@ -11,6 +11,7 @@ For our project we will be creating a producer to send data that it receives fro
 
 The script will take the data from the .csv and make tuples for messages. It will use the date/time and the respective temperature. 
 It will produce a message for each and send the message to the respective queue.
+Data will be read from the file one row every 30 seconds. 
 We can see and monitor the messages that are being sent in the RabitMQ Management. You can see several screen shots of examples below. 
 
 ## Screenshots
